@@ -110,9 +110,9 @@ bot.on('message', (msg) => {
       let teacherDo = teachers[teacherNumber + 1]
       let teacherClass = teachers[teacherNumber + 2] === '-' ? null :  teachers[teacherNumber + 2]
       if (teacherClass) {
-        msg.channel.send(teacherName + '선생님은 ' + teacherRole + '이시고, ' + teacherDo + '와 같은일을 하십니다, 또한 ' + teacherClass + '의 담임이시기도 하십니다.')
+        msg.channel.send(teacherName + ' 선생님은 ' + teacherRole + '이시고, ' + teacherDo + '와 같은일을 하십니다, 또한 ' + teacherClass + '의 담임이시기도 하십니다.')
       } else {
-        msg.channel.send(teacherName + '선생님은 ' + teacherRole + '이시고, ' + teacherDo + '와 같은일을 하십니다')
+        msg.channel.send(teacherName + ' 선생님은 ' + teacherRole + '이시고, ' + teacherDo + '와 같은일을 하십니다')
       }
     } else {
       embed = new discord.RichEmbed()
