@@ -20,7 +20,7 @@ bot.on('message', (msg) => {
   if (msgArr[0] === 'swag' || msgArr[0] === 'SWAG') {
     console.log(msg.author.username + ' (' + msg.author.id + ')> ' + msg.content)
     if (msgArr[1] === '보고서' || msgArr[1] === '계획서' || msgArr[1] === '학습상황' || msgArr[1] === '문서' || msgArr[1] === '학습상황보고서') {
-      msg.channel.send('지켜보고있습니다, 반달행위 적발시 SWAG에서 추방 당할 수 있습니다\nhttps://docs.google.com/document/d/12RRySSr3kIkuuLzSrafvNutyc1sml8frOFL9L5qkcYM/edit?usp=sharing')
+      msg.channel.send('지켜보고있습니다, 반달행위 적발시 SWAG에서 추방 당할 수 있습니다\nhttp://short.kro.kr/SWAG보고서')
     } else {
       embed = new discord.RichEmbed()
       .setColor('#ff0000')
